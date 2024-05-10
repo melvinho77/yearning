@@ -5,8 +5,9 @@ import (
 	"Yearning-go/src/handler/fetch"
 	"Yearning-go/src/handler/personal"
 	"Yearning-go/src/lib"
-	"github.com/cookieY/yee"
 	"net/http"
+
+	"github.com/cookieY/yee"
 )
 
 func YearningQueryForGet(y yee.Context) (err error) {
