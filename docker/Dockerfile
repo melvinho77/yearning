@@ -3,11 +3,11 @@ FROM alpine:${BASEIMAGES} AS builder
 
 LABEL maintainer="chaiyd <chaiyd.cn@gmail.com>,henryyee <henry@yearning.io>"
 
-ARG YEARNING_VER=v3.1.7
+ARG YEARNING_VER=v0.0.1
 
 ARG TARGETARCH=amd64
 
-ARG YEARNING_URL=https://github.com/cookieY/Yearning/releases/download/${YEARNING_VER}/Yearning-${YEARNING_VER}-linux-${TARGETARCH}.zip
+ARG YEARNING_URL=https://github.com/melvinho77/yearning/releases/download/${YEARNING_VER}/Yearning-${YEARNING_VER}-linux-${TARGETARCH}.zip
 
 RUN wget -cO yearning.zip $YEARNING_URL && \
     unzip yearning.zip && \
