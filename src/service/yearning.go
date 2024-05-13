@@ -27,9 +27,9 @@ import (
 )
 
 //go:embed dist/*
-var f embed.FS
+var f embed.
 
-go:embed dist/index.html
+//go:embed dist/index.html
 var html string
 
 func loadDBInit() {
