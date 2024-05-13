@@ -3,9 +3,9 @@ FROM alpine:${BASEIMAGES} AS builder
 
 LABEL maintainer="chaiyd <chaiyd.cn@gmail.com>,henryyee <henry@yearning.io>"
 
-ARG YEARNING_VER=v3.1.5
+ARG YEARNING_VER=v3.1.7
 
-ARG TARGETARCH
+ARG TARGETARCH=amd64
 
 ARG YEARNING_URL=https://github.com/cookieY/Yearning/releases/download/${YEARNING_VER}/Yearning-${YEARNING_VER}-linux-${TARGETARCH}.zip
 
