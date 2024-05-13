@@ -13,7 +13,6 @@ RUN wget -cO yearning.zip $YEARNING_URL && \
     unzip yearning.zip && \
     mv Yearning/* /opt
 
-
 FROM  --platform=$TARGETPLATFORM alpine:${BASEIMAGES}
 
 ARG TARGETPLATFORM
