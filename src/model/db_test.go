@@ -1,9 +1,10 @@
 package model
 
 import (
-	"gorm.io/gorm"
 	"sync"
 	"testing"
+
+	"gorm.io/gorm"
 )
 
 func TestJsonGet(t *testing.T) {

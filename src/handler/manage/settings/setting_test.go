@@ -4,10 +4,11 @@ import (
 	"Yearning-go/src/handler/common"
 	"Yearning-go/src/model"
 	"Yearning-go/src/test"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"os"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func setup() {

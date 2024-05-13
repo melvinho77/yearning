@@ -1,8 +1,9 @@
 package common
 
 import (
-	"gorm.io/gorm"
 	"reflect"
+
+	"gorm.io/gorm"
 )
 
 const QueryField = "work_id, username, text, backup, date, real_name, `status`, `type`, `delay`, `source`,`id_c`,`data_base`,`table`,`execute_time`,source_id,assigned,current_step,relevant,`file`"
