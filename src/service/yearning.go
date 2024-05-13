@@ -27,7 +27,7 @@ import (
 )
 
 //go:embed dist/*
-var f embed.
+var f embed.FS
 
 //go:embed dist/index.html
 var html string
