@@ -16,5 +16,4 @@ func TestHighLight(t *testing.T) {
 	for _, i := range strings.Split(high, "|") {
 		fmt.Printf(`'%s',`, i)
 	}
-
 }
