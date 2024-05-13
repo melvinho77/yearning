@@ -21,15 +21,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/cookieY/yee"
-	"github.com/golang-jwt/jwt"
-	"gorm.io/gorm"
 	"io"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/cookieY/yee"
+	"github.com/golang-jwt/jwt"
+	"gorm.io/gorm"
 )
 
 func OidcState(c yee.Context) (err error) {

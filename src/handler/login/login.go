@@ -20,9 +20,10 @@ import (
 	"Yearning-go/src/model"
 	"encoding/json"
 	"errors"
+	"net/http"
+
 	"github.com/cookieY/yee"
 	"gorm.io/gorm"
-	"net/http"
 )
 
 type loginForm struct {

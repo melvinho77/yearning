@@ -18,13 +18,14 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
+	"os"
+	"time"
+
 	"github.com/BurntSushi/toml"
 	"github.com/cookieY/yee/logger"
 	mmsql "github.com/go-sql-driver/mysql"
 	drive "gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"os"
-	"time"
 )
 
 var sqlDB *gorm.DB

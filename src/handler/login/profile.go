@@ -3,8 +3,9 @@ package login
 import (
 	"Yearning-go/src/handler/common"
 	"Yearning-go/src/model"
-	"github.com/cookieY/yee"
 	"net/http"
+
+	"github.com/cookieY/yee"
 )
 
 func UserReqSwitch(c yee.Context) (err error) {
