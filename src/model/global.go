@@ -15,9 +15,8 @@ package model
 
 import (
 	"Yearning-go/src/engine"
-	"time"
-
 	"github.com/cookieY/yee/logger"
+	"time"
 )
 
 var mappingLevel = map[string]uint8{

@@ -16,9 +16,10 @@ package lib
 import (
 	"Yearning-go/src/model"
 	"errors"
+	"time"
+
 	"github.com/cookieY/yee"
 	"github.com/golang-jwt/jwt"
-	"time"
 )
 
 type Token struct {

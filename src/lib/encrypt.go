@@ -22,12 +22,13 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/base64"
-	"github.com/cookieY/yee/logger"
-	"golang.org/x/crypto/pbkdf2"
 	"math/rand"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/cookieY/yee/logger"
+	"golang.org/x/crypto/pbkdf2"
 )
 
 func GetRandom() []byte {

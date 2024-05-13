@@ -20,10 +20,11 @@ import (
 	"Yearning-go/src/model"
 	"encoding/json"
 	"fmt"
-	"github.com/google/uuid"
-	"github.com/gookit/gcli/v3/interact"
 	"os"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/gookit/gcli/v3/interact"
 )
 
 func DataInit(o *engine.AuditRole, other *model.Other, ldap *model.Ldap, message *model.Message, a *model.PermissionList) {

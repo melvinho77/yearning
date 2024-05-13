@@ -17,9 +17,10 @@ import (
 	"Yearning-go/src/model"
 	"crypto/tls"
 	"fmt"
+	"strings"
+
 	"github.com/cookieY/yee/logger"
 	"gopkg.in/gomail.v2"
-	"strings"
 )
 
 type UserInfo struct {

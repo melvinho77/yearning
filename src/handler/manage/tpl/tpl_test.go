@@ -6,11 +6,10 @@ import (
 	"Yearning-go/src/test"
 	"encoding/json"
 	"fmt"
+	"github.com/stretchr/testify/assert"
 	"net/http"
 	"os"
 	"testing"
-
-	"github.com/stretchr/testify/assert"
 )
 
 func setup() {

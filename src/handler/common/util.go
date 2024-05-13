@@ -5,9 +5,8 @@ import (
 	"Yearning-go/src/model"
 	"errors"
 	"fmt"
-	"strings"
-
 	"github.com/cookieY/yee/logger"
+	"strings"
 )
 
 func unifiedLabel(col []string) []any {
