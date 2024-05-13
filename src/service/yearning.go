@@ -15,6 +15,7 @@ import (
 
 var f embed.FS
 
+go:embed dist/index.html
 var html string
 
 func loadDBInit() {
